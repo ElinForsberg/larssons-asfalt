@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    margin:0;
+    background-image: url(asphalt-g20281efff_1920.jpg);
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+.background_first {
+    width:100vw;
+    height:100vh; 
+    background-image: url(backgroundpic.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    
+  
+    /* background-attachment: fixed;
+    background-size: cover; */
+
+}
+
+.background_contact {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(route66-g282051b8d_1920.jpg);
+    margin-top:120vh;
+    position: absolute;
+    z-index: -1;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items:flex-start;
+    border-bottom: 2px solid white; 
+    background-color: black;
+    opacity: 70%;
+    margin: 0px;
+    
+}
+
+.loggo {
+    height: 150px;
+    margin-left: 15px;
+}
+
+/* .header-text {
+    font-size: 3rem;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    text-shadow: 2px 2px 5px wheat;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.header-smalltext {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+    margin-top: 0px; */
+/* } */
+
+
+.contact {
+    width: 100vw;
+    height:30px;
+    background-color: black;
+    /* border-top: 1px solid white; */
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 20px;
+    
+    
+    
+}
+
+.contact_words {
+    color: white;
+    
+    padding: 20px;
+    font-family: 'Barlow', sans-serif;
+    
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+#lead_words {
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 70px;
+font-family: 'Titillium Web', sans-serif; 
+text-shadow: 2px 2px 5px black;
+margin-top: 150px;
+}
+
+#main_text {
+    width: 200px;
+    height: 300px;
+    font-family: 'Titillium Web', sans-serif; 
+    font-style: italic;
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    text-shadow: 2px 2px 5px black;
+}
+
+.offert {
+
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Barlow', sans-serif;
+font-size: 30px;
+text-align: center;
+text-shadow: 2px 2px 5px black;
+}
+
+.contact_btn {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(162, 157, 157);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+#contact_btn_text {
+    color: black;
+}
+
+
+
+header {
+    display:flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items:flex-start;
+    border-bottom: 2px solid white; 
+    background-color: black;
+    opacity: 70%;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    
+    
+}
+
+.loggo {
+    height: 150px;
+    margin-left: 15px;
+}
+
+/* .header-text {
+    font-size: 3rem;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    text-shadow: 2px 2px 5px wheat;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.header-smalltext {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+    margin-top: 0px; */
+/* } */
+body {
+    margin:0;
+    background-color: black;
+}
+
+.contact {
+    width: 100vw;
+    height:30px;
+    background-color: black;
+    /* border-top: 1px solid white; */
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 80px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    
+    
+    
+    
+}
+
+.contact_words {
+    color: white;
+    
+    padding: 20px;
+    
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact_head {
+    height: 80px;
+    margin-top: 140vh;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif; 
+    text-shadow: 2px 2px 5px black;
+}
+.contact_how {
+    
+    color: white;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif; 
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 30px;
+    
+
+
+}
+
+.wrapper {
+   
+    display: flex;
+}
+
+.personalinfo {
+    background-color: rgb(204, 197, 197);
+    margin: 10px;
+    display: flex;  
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+
+}
+.personsinfo {
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 3px black; */
+    
+    margin:10px;
+}
+h4, h5, h6 {
+    padding: 3px;
+    margin: 2px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* background-color: rgb(238, 223, 223);
+    box-shadow: 2px 2px 5px black;
+    border-radius: 3px; */
+    width: 600px; 
+}
+
+input {
+    width: 400px;
+    height:30px;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(204, 197, 197);
+    font-family: 'Barlow', sans-serif;
+   
+}
+
+textarea {
+    width: 400px;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(204, 197, 197);
+    font-family: 'Barlow', sans-serif;
+}
+
+button {
+    width:400px;
+    height:30px;
+    margin:5px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(162, 157, 157);
+    font-family: 'Barlow', sans-serif;
+}
+
+.name_css {
+margin-top: 30px;
+}
+
+
+
